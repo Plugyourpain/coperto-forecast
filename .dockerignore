@@ -1,0 +1,18 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Данные и модели монтируются через volume, не копируются в образ
+data/
+models/
+notebooks/
+tests/
+
+# Git и документация
+.git/
+.gitignore
+.gitattributes
+*.md
+requirements-optional.txt

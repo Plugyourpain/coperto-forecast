@@ -1,0 +1,4 @@
+# Опциональные зависимости: расширенные эксперименты.
+# Базовая модель (Ridge) работает без них.
+# Запуск сравнения: pip install -r requirements-optional.txt && python -m src.model
+lightgbm==4.5.0
