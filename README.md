@@ -121,7 +121,7 @@ python predict.py --date 2025-10-15 --restaurant 2 --out forecast.csv
 - `--days` не совпадает с горизонтом обученной модели → ошибка;
 - отсутствующий `models/model.pkl` → подсказка, какой командой обучить.
 
-### `python demo.py` — пошаговая демонстрация (для показа на созвоне)
+### `python demo.py` — пошаговая демонстрация
 
 ```bash
 python demo.py --pause
